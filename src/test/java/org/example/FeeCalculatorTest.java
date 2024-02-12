@@ -1,11 +1,13 @@
 package org.example;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 
 class FeeCalculatorTest {
+
     @Test
     public void test_calculateFee_when_adult_and_halfDay() {
         //GIVEN
